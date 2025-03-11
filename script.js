@@ -6,8 +6,10 @@ const video = document.querySelector('#yourVideoElement'); // Replace with your 
 slider.addEventListener('input', () => {
     overlay.style.width = `${slider.value}%`;
     if (slider.value == slider.max) {
+        slider.classList.add('hidden'); // Hide the slider
         playButton.classList.remove('hidden'); // Show the play button
     } else {
+        slider.classList.remove('hidden'); // Show the slider
         playButton.classList.add('hidden'); // Hide the play button
     }
 });
