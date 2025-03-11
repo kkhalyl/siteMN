@@ -168,22 +168,4 @@
 .hidden {
     display: none;
 }
-
-#playButton {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 10px 20px;
-    font-size: 24px; /* Larger font size for arrow */
-    background: transparent; /* Transparent background */
-    border: none; /* No border */
-    color: #0057FF; /* Color of the arrow */
-    cursor: pointer;
-}
-
-#yourVideoElement {
-    display: none; /* Initially hidden */
-    margin-top: 20px; /* Add some margin for spacing */
-}
     </style>
