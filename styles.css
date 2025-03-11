@@ -141,7 +141,7 @@
 
 .slider-range::-webkit-slider-thumb {
     appearance: none;
-    width: 0px;
+    width: 15px;
     height: 15px;
     background: #0057FF;
     border-radius: 50%;
