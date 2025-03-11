@@ -182,4 +182,8 @@
     cursor: pointer;
 }
 
+#yourVideoElement {
+    display: none; /* Initially hidden */
+    margin-top: 20px; /* Add some margin for spacing */
+}
     </style>
