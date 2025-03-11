@@ -131,8 +131,8 @@
 .slider-range {
     position: absolute;
     top: 50%;
-    left: 0%;
-    width: 100%;
+    left: 0;
+    width: 0%;
     transform: translateY(-50%);
     appearance: none;
     background: transparent;
