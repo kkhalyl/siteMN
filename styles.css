@@ -117,16 +117,18 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 50%;
+    width: 50%; /* Keep this as 50% */
     height: 100%;
     overflow: hidden;
-    transition: width 0.2s ease;
 }
 
 .slider-overlay img {
-    width: 100%;
+    width: 200%; /* Increase the width to cover the overlay */
     height: 100%;
     object-fit: cover;
+    position: absolute; /* Add position absolute */
+    top: 0; /* Align to the top */
+    left: -25%; /* Move the image left to compensate for the increased width */
 }
 
 .slider-range {
