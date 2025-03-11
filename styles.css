@@ -165,5 +165,9 @@
  .btn-saiba-mais:hover {
      background-color: #e65c00;
  }
+
+.hidden {
+    display: none;
+}
  
      </style>
