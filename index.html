@@ -1,73 +1,85 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Loja de Prateleiras</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header>
-        <div class="logo"> <img src="logo.png" alt="Logo da Loja"> </div>
-        <nav>
-            <ul>
-                <li><a href="#home">Início</a></li>
-                <li><a href="#catálogo">Catálogo</a></li>
-                <li><a href="#categorias">Categorias</a></li>
-                <li><a href="#mais-vendidos">Mais Vendidos</a></li>
-                <li><a href="#contato">Contato</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <section id="home">
-        <h1>Bem-vindo à Mundo dos Nichos</h1>
-        <p>Organize seu espaço com estilo e qualidade!</p>
-    </section>
-
-     <section class="before-after-banner">
-        <h2>Antes e Depois: Veja a Transformação!</h2>
-        <p>Arraste para ver como nossos projetos podem mudar seu ambiente.</p>
-
-        <div class="slider-container">
-    <div class="slider">
-        <img src="imagens/antes.jpg" alt="Antes" class="image-before">
-        <div class="slider-overlay">
-            <img src="imagens/depois.jpg" alt="Depois" class="image-after">
-        </div>
-        <input type="range" class="slider-range" min="0" max="100" value="0">
-        <button id="playButton" class="hidden">&#9658;</button>
-    </div>
-    <video id="yourVideoElement" class="hidden" width="600" controls muted>
-    <source src="videos/videodepois0.mp4" type="video/mp4">
-    Seu navegador não suporta a tag de vídeo.
-</video>
-</div>
-        </div>
-
-        <a href="#sobre-mdf" class="btn-saiba-mais">Saiba Mais</a>
-    </section>
-    
-    <section id="catalogo">
-        <h2>Nosso Catálogo</h2>
-        <div class="produtos">
-            <div class="produto">
-                <img src="prateleira1.jpg" alt="Prateleira Modelo 1">
-                <h3>Prateleiras Triple-Double</h3>
-                <p>R$ 120,00</p>
-                <a href="https://wa.me/seu-numero?text=Quero+comprar+Prateleira+Modelo+1" class="botao">Comprar no WhatsApp</a>
-            </div>
-            <div class="produto">
-                <img src="prateleira2.jpg" alt="Prateleira Modelo 2">
-                <h3>Prateleira Modelo 2</h3>
-                <p>R$ 150,00</p>
-                <a href="https://wa.me/seu-numero?text=Quero+comprar+Prateleira+Modelo+2" class="botao">Comprar no WhatsApp</a>
-            </div>
-        </div>
-    </section>
-    <footer>
-        <p>&copy; 2025 Mundo dos Lixos - Todos os direitos reservados</p>
-    </footer>
-    <script src="script.js"></script>
-</body>
-</html>
+ <html lang="pt-br">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Loja de Prateleiras</title>
+     <link rel="stylesheet" href="styles.css">
+ </head>
+ <body>
+     <header>
+         <div class="logo"> <img src="logo.png" alt="Logo da Loja"> </div>
+         <nav>
+             <ul>
+                 <li><a href="#home">Início</a></li>
+                 <li><a href="#catálogo">Catálogo</a></li>
+                 <li><a href="#categorias">Categorias</a></li>
+                 <li><a href="#mais-vendidos">Mais Vendidos</a></li>
+                 <li><a href="#contato">Contato</a></li>
+             </ul>
+         </nav>
+     </header>
+ 
+     <section id="home">
+         <h1>Bem-vindo à Mundo dos Nichos</h1>
+         <p>Organize seu espaço com estilo e qualidade!</p>
+     </section>
+ 
+      <section class="before-after-banner">
+         <h2>Antes e Depois: Veja a Transformação!</h2>
+         <p>Arraste para ver como nossos projetos podem mudar seu ambiente.</p>
+ 
+         <div class="slider-container">
+             <div class="slider">
+                 <img src="imagens/antes.jpg" alt="Antes" class="image-before">
+                 <div class="slider-overlay">
+                     <img src="imagens/depois.jpg" alt="Depois" class="image-after">
+                 </div>
+                 <input type="range" class="slider-range" min="0" max="100" value="0">
+                 <button id="playButton" class="hidden">Play</button>
+                 <video id="yourVideoElement" width="600" controls>
+                     <source src="videos/video depois0.mp4" type="video/mp4">
+                 </video>
+                 
+             </div>
+     <div class="slider">
+         <img src="imagens/antes.jpg" alt="Antes" class="image-before">
+         <div class="slider-overlay">
+             <img src="imagens/depois.jpg" alt="Depois" class="image-after">
+         </div>
+         <input type="range" class="slider-range" min="0" max="100" value="0">
+         <button id="playButton" class="hidden">&#9658;</button>
+     </div>
+     <video id="yourVideoElement" class="hidden" width="600" controls>
+         <source src="your-video-file.mp4" type="video/mp4">
+         Your browser does not support the video tag.
+     </video>
+ </div>
+         </div>
+ 
+         <a href="#sobre-mdf" class="btn-saiba-mais">Saiba Mais</a>
+     </section>
+ 
+     <section id="catalogo">
+         <h2>Nosso Catálogo</h2>
+         <div class="produtos">
+             <div class="produto">
+                 <img src="prateleira1.jpg" alt="Prateleira Modelo 1">
+                 <h3>Prateleiras Triple-Double</h3>
+                 <p>R$ 120,00</p>
+                 <a href="https://wa.me/seu-numero?text=Quero+comprar+Prateleira+Modelo+1" class="botao">Comprar no WhatsApp</a>
+             </div>
+             <div class="produto">
+                 <img src="prateleira2.jpg" alt="Prateleira Modelo 2">
+                 <h3>Prateleira Modelo 2</h3>
+                 <p>R$ 150,00</p>
+                 <a href="https://wa.me/seu-numero?text=Quero+comprar+Prateleira+Modelo+2" class="botao">Comprar no WhatsApp</a>
+             </div>
+         </div>
+     </section>
+     <footer>
+         <p>&copy; 2025 Mundo dos Lixos - Todos os direitos reservados</p>
+     </footer>
+     <script src="script.js"></script>
+ </body>
+ </html>
