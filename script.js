@@ -15,7 +15,7 @@ slider.addEventListener('input', () => {
 });
 
 playButton.addEventListener('click', () => {
-    console.log('Botão de play clicado');
+    console.log('Botão de play clicado'); // Verifique se isso aparece no console
     video.classList.remove('hidden'); // Mostra o vídeo
     video.play().catch(error => {
         console.error('Erro ao reproduzir o vídeo:', error);
