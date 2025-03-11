@@ -1,6 +1,7 @@
 const slider = document.querySelector('.slider-range');
-const overlay = document.querySelector('.slider-overlay');
+const overlay = document.querySelector('.slider-overlay img');
 
-slider.addEventListener('input', () => {
-    overlay.style.width = `${slider.value}%`;
+slider.addEventListener('input', (e) => {
+    let sliderValue = e.target.value;
+    overlay.style.clipPath = `inset(0 ${100 - sliderValue}% 0 0)`;
 });
