@@ -15,8 +15,9 @@ slider.addEventListener('input', () => {
 });
 
 playButton.addEventListener('click', () => {
-    video.classList.remove('hidden'); // Show the video
+    console.log('Botão de play clicado');
+    video.classList.remove('hidden'); // Mostra o vídeo
     video.play().catch(error => {
-        console.error('Error playing the video:', error);
+        console.error('Erro ao reproduzir o vídeo:', error);
     });
 });
