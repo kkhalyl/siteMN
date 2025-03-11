@@ -137,6 +137,8 @@
     appearance: none;
     background: transparent;
     cursor: pointer;
+    /* Adicione a linha abaixo para definir o valor inicial do controle deslizante */
+    value: 0;
 }
 
 .slider-range::-webkit-slider-thumb {
